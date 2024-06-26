@@ -1,0 +1,20 @@
+{
+    "name": "pn_game",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel src/index.html -p 8000",
+        "build": "parcel build src/index.html --public-url ./",
+        "deploy": "gh-pages -d dist",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "parcel-bundler": "^1.12.5"
+    },
+    "devDependencies": {
+        "gh-pages": "^6.1.1"
+    }
+}
